@@ -1,4 +1,4 @@
-FROM qnib/u-terminal
+FROM qnib/u-syslog
 
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 RUN apt-get update \
